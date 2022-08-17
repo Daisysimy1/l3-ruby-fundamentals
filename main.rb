@@ -92,8 +92,20 @@ puts student
 
 # 8.0 Methods
 # TODO: Method with enclosed params
+def count_students(param, param3,param4)
+    puts param + param3 + param4
+end
+
+count_students("Hello ruby methods","20","76")
 
 # TODO: Method with open params
+def count_tms param1, param2
+    param1 + param2
+
+end
+counted_tms = count_tms 109, 139
+puts counted_tms.to_f
+
 
 
 
